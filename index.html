@@ -4,23 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Homepage</title>
 </head>
 
 <body>
-    <img src="source/Logo.png" alt="Kiki Mae Logo" width="100" />
-    <ul>
-        <li>
-            <strong>Homepage</strong>
-        </li>
-        <li>
-            <a href="./Portfolio.html">Portfolio</a>
-        </li>
-        <li>
-            <a href="./Resume.html">Resume</a>
-        </li>
-    </ul>
-    <section> <!-- About Me -->
+    <header>
+        <img src="source/Logo.png" alt="Kiki Mae Logo" width="100" id="Logo" />
+        <nav>
+            <ul>
+                <li>
+                    <strong>Homepage</strong>
+                </li>
+                <li>
+                    <a href="./Portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./Resume.html">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="AboutMe"> <!-- About Me -->
         <h1>About Me</h1>
         <p>Hey, I'm Kiki Mae :) I'm currently a Graphic Design Major at SAIT and an aspiring game designer.
         </p>
@@ -31,15 +36,21 @@
             <li>Watching many TV shows (Literally anything)</li>
         </ol>
     </section>
-    <img src="source/Me.png" alt="Picture of Me" width="500" />
+    <figure>
+        <img src="source/Me.png" alt="Picture of Me" width="500" id="PhotoOfMe" />
+        <figcaption>This is me!</figcaption>
+    </figure>
+    <footer>
+        <section> <!-- Contact me -->
+            <h1>Contact Me</h1>
+            <p>Feel free to connect with me here!</p>
+            <a href="https://github.com/heckinkiki"><img src="source/github.png" alt="GitHub" width="100" /></a>
+            <a href="https://www.linkedin.com/in/kierstin-forseth-9225ab262/"><img src="source/linkedin.png"
+                    alt="LinkedIn"></a>
+        </section>
+    </footer>
 
-    <section> <!-- Contact me -->
-        <h1>Contact Me</h1>
-        <p>Feel free to connect with me here!</p>
-        <a href="https://github.com/heckinkiki"><img src="source/github.png" alt="GitHub" width="100" /></a>
-        <a href="https://www.linkedin.com/in/kierstin-forseth-9225ab262/"><img src="source/linkedin.png"
-                alt="LinkedIn"></a>
-    </section>
+
 </body>
 
 </html>

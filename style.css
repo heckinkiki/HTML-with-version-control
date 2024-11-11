@@ -1,0 +1,65 @@
+/* required elements */
+header {
+    position:sticky;
+    top: 0;
+    background-color: rgb(235, 235, 235);
+    color: rgb(255, 205, 103);
+    padding: 20px 0;
+    text-align:center;
+}
+
+footer 
+{
+    background-color: rgb(152, 203, 204);
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+a {
+    border-radius: 8px;
+    color: rgb(152, 203, 204);
+    padding: 1em;
+    text-decoration: none;
+}
+
+ul strong {
+    padding: 1em;
+}
+
+nav a:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+figure {
+    display:block;
+    text-align:center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+section {
+    border: 2px solid;
+}
+
+#PhotoOfMe {
+    border: 2px solid;
+}
+
+.AboutMe {
+    background-color:blueviolet
+}
+
+/* end of required elements */
