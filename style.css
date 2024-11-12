@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* required elements */
+/* Standard elements */
+body {
+    margin: 0;
+}
+
 header {
     position:sticky;
     top: 0;
@@ -11,39 +15,22 @@ header {
     font-family: "Sour Gummy", sans-serif;
 }
 
-footer 
-{
-    background-color: rgb(152, 203, 204);
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(152, 203, 204);
     text-align: center;
-    padding: 0.5em;
-    color: whitesmoke;
-    margin-top: 3em;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding-left: 0;
+h2 {
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(255, 205, 103);
 }
 
-a {
+header a {
     border-radius: 8px;
     color: rgb(152, 203, 204);
     padding: 1em;
     text-decoration: none;
-}
-
-ul strong {
-    padding: 1em;
-}
-
-nav a:hover {
-    background-color: rgb(219, 219, 219);
-}
-
-h1 {
-    font-family: "Sour Gummy", sans-serif;
 }
 
 figure {
@@ -69,10 +56,33 @@ table, th, td {
     padding: 0.5em;
 }
 
-#PhotoOfMe {
-    max-width: 100%;
+footer 
+{
+    background-color: rgb(152, 203, 204);
+    text-align: center;
+    padding: 0.5em;
+    color: whitesmoke;
+    margin-top: 3em;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+ul strong {
+    padding: 1em;
+}
+
+nav a:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+/* end of Standard elements */
+
+/* Custom Elements */
 .AboutMe {
     margin: 1em;
     display:flex;
@@ -80,30 +90,6 @@ table, th, td {
     gap: 3em;
 }
 
-#AboutMeContent {
-    align-self: center;
-    max-width: 30%;
-    max-height: fit-content;
-    padding-left: 1em;
-    padding-right: 1em;
-    background-color:rgb(235, 235, 235);
-    border: 3px solid rgb(255, 205, 103);
-}
-
-#AboutMeContent h1 {
-    color: rgb(152, 203, 204);
-    font-family: "Sour Gummy", sans-serif;
-}
-
-h1 {
-    color: rgb(152, 203, 204);
-    text-align: center;
-}
-
-h2 {
-    font-family: "Sour Gummy", sans-serif;
-    color: rgb(255, 205, 103);
-}
 .FlexContainer {
     display: flex;
     justify-content: center;
@@ -140,4 +126,23 @@ h2 {
     max-width: fit-content;
 }
 
-/* end of required elements */
+#PhotoOfMe {
+    max-width: 100%;
+}
+
+#AboutMeContent {
+    align-self: center;
+    max-width: 30%;
+    max-height: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color:rgb(235, 235, 235);
+    border: 3px solid rgb(255, 205, 103);
+}
+
+#AboutMeContent h1 {
+    color: rgb(152, 203, 204);
+    font-family: "Sour Gummy", sans-serif;
+}
+
+/* end of Custom Elements */
