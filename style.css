@@ -37,12 +37,20 @@ nav a:hover {
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 figure {
     display:block;
     text-align:center;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 0.5em 1em 1em 1em;
+    background-color: rgb(235, 235, 235);
+}
+
+figcaption {
+    margin: 1em;
 }
 
 table, th, td {
@@ -50,16 +58,13 @@ table, th, td {
     border: 1px solid;
 }
 
-section {
-    border: 2px solid;
-}
-
 #PhotoOfMe {
-    border: 2px solid;
+    max-width: 100%;
+
 }
 
 .AboutMe {
-    background-color:blueviolet
+    background-color:rgb(219, 219, 219)
 }
 
 /* end of required elements */
