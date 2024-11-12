@@ -12,6 +12,8 @@ footer
 {
     background-color: rgb(152, 203, 204);
     text-align: center;
+    padding: 0.5em;
+    color: whitesmoke;
 }
 
 nav ul {
@@ -41,16 +43,18 @@ h1 {
 }
 
 figure {
-    display:block;
+    display:table-cell;
     text-align:center;
     border-radius: 2px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     padding: 0.5em 1em 1em 1em;
     background-color: rgb(235, 235, 235);
+    margin:0;
 }
 
 figcaption {
     margin: 1em;
+    max-height: 10%;
 }
 
 table, th, td {
@@ -60,11 +64,27 @@ table, th, td {
 
 #PhotoOfMe {
     max-width: 100%;
-
 }
 
 .AboutMe {
-    background-color:rgb(219, 219, 219)
+    margin: 1em;
+    display:flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+#AboutMeContent {
+    align-self: center;
+    max-width: 30%;
+    max-height: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color:rgb(235, 235, 235);
+    border: 3px solid rgb(255, 205, 103);
+}
+
+#AboutMeContent h1 {
+    color: rgb(152, 203, 204);
 }
 
 /* end of required elements */
