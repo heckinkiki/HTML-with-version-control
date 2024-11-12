@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* required elements */
 header {
     position:sticky;
@@ -6,6 +8,7 @@ header {
     color: rgb(255, 205, 103);
     padding: 20px 0;
     text-align:center;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 footer 
@@ -14,6 +17,7 @@ footer
     text-align: center;
     padding: 0.5em;
     color: whitesmoke;
+    margin-top: 3em;
 }
 
 nav ul {
@@ -39,7 +43,7 @@ nav a:hover {
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 figure {
@@ -55,11 +59,14 @@ figure {
 figcaption {
     margin: 1em;
     max-height: 10%;
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(175, 175, 175);
 }
 
 table, th, td {
     border-collapse: collapse;
     border: 1px solid;
+    padding: 0.5em;
 }
 
 #PhotoOfMe {
@@ -85,6 +92,52 @@ table, th, td {
 
 #AboutMeContent h1 {
     color: rgb(152, 203, 204);
+    font-family: "Sour Gummy", sans-serif;
+}
+
+h1 {
+    color: rgb(152, 203, 204);
+    text-align: center;
+}
+
+h2 {
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(255, 205, 103);
+}
+.FlexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.PortfolioContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: fit-content;
+    background-color: rgb(235, 235, 235);
+    gap: 1em;
+    padding: 2em;
+}
+
+.PortfolioContainer h3{
+    text-align: left;
+    font-family: "Sour Gummy", sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.PortfolioContainer img {
+    max-height:max-content;
+}
+
+.footerheader {
+    color: whitesmoke;
+}
+
+.ResumeContainer {
+    background-color: rgb(235, 235, 235);
+    padding: 1em;
+    border: 2px solid rgb(152, 203, 204);
+    max-width: fit-content;
 }
 
 /* end of required elements */
