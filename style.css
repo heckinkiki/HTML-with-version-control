@@ -137,6 +137,22 @@ nav a:hover {
     max-width: fit-content;
 }
 
+.MorningGreeting {
+    color: rgb(255, 205, 103);
+}
+
+.AfternoonGreeting {
+    color: skyblue;
+}
+
+.EveningGreeting {
+    color: rgb(35, 78, 134);
+}
+
+#JSGreeting {
+    text-align: center;
+}
+
 #PhotoOfMe {
     max-width: 100%;
 }

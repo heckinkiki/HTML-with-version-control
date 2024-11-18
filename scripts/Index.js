@@ -2,13 +2,13 @@
 let GreetingElement = document.getElementById("JSGreeting");
 
 if (TodayDate.getHours() < 12) {
-    GreetingElement.innerHTML = "<p id=\"MorningGreeting\">Good Morning!</p>";
+    GreetingElement.innerHTML = "<h1 id=\"JSGreeting\" class=\"MorningGreeting\">Good Morning! ☼</h1>";
 }
 else if (TodayDate.getHours() < 17) {
-    GreetingElement.innerHTML = "<p id=\"AfternoonGreeting\">Good afternoon!</p>";
+    GreetingElement.innerHTML = "<h1 id=\"JSGreeting\" class=\"AfternoonGreeting\">Good Afternoon! ☁︎</h1>";
 }
 else {
-    GreetingElement.innerHTML = "<p id=\"EveningGreeting\">Good evening!</p>";
+    GreetingElement.innerHTML = "<h1 id=\"JSGreeting\" class=\"EveningGreeting\">Good Evening! ☾</h1>";
 }
 
 //TODO: Add styles to each greeting message.

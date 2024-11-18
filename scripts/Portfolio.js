@@ -2,7 +2,7 @@
 let JSButton = document.getElementById("btn-alert");
 
 // create button functions
-let buttonAlert = () => alert("Hello World!");
+let buttonAlert = () => alert("I made this!");
 let buttonHover = () => JSButton.innerText = "Click me NOW!!!!!";
 let buttonExit = () => JSButton.innerText = "Click me!";
 
@@ -20,6 +20,14 @@ for (
      i++)
 {
     let newLI = document.createElement("li");
-    newLI.innerText = i % 2 == 1 ? "Odd" : "Even";
+    if(i % 2 == 1)
+    {
+        newLI.innerText =  "Odd";
+    }
+    else 
+    {
+        newLI.innerText = "Even";
+    }
+   
     JSList.appendChild(newLI);
 }

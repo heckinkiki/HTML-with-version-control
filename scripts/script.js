@@ -5,4 +5,4 @@ let TodayDate = new Date();
 console.log(TodayDate)
 
 //Update footer
-document.getElementById("Copyright").innerHTML = "<p> (c) Kierstin, " + TodayDate.getFullYear() + ".</p>";
+document.getElementById("Copyright").innerHTML = "<p> ©️ Kierstin, " + TodayDate.getFullYear() + ".</p>";
