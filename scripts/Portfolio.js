@@ -1,14 +1,25 @@
-// Portfolio greeting
-let GreetingElement = document.getElementById("JSGreeting");
+// get button
+let JSButton = document.getElementById("btn-alert");
 
-if (TodayDate.getHours() < 12) {
-    GreetingElement.innerText = "Good Morning!";
-}
-else if (TodayDate.getHours() < 17) {
-    GreetingElement.innerText = "Good afternoon!";
-}
-else {
-    GreetingElement.innerText = "Good evening!";
-}
+// create button functions
+let buttonAlert = () => alert("Hello World!");
+let buttonHover = () => JSButton.innerText = "Click me NOW!!!!!";
+let buttonExit = () => JSButton.innerText = "Click me!";
 
-//TODO: Add styles to each greeting message.
+// set button functions
+JSButton.addEventListener("mouseenter", buttonHover);
+JSButton.addEventListener("mouseleave", buttonExit);
+JSButton.addEventListener("click", buttonAlert);
+
+// for loop
+let JSList = document.getElementById("numbers");
+
+for (
+    let i = 1;
+     i <= 12; 
+     i++)
+{
+    let newLI = document.createElement("li");
+    newLI.innerText = i % 2 == 1 ? "Odd" : "Even";
+    JSList.appendChild(newLI);
+}

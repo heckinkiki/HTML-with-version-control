@@ -2,7 +2,7 @@
 let TodayDate = new Date();
 
 // Log Local time.
-//console.log(TodayDate)
+console.log(TodayDate)
 
 //Update footer
-document.getElementById("Copyright").innerHTML = "<p> (c) Keirstin, " + TodayDate.getFullYear() + ".";
+document.getElementById("Copyright").innerHTML = "<p> (c) Kierstin, " + TodayDate.getFullYear() + ".</p>";
